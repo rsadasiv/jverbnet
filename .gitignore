@@ -1,0 +1,10 @@
+WebContent/Corpora
+target
+data/
+WebContent/images/cached/
+.classpath
+.gitconfig
+.project
+.settings/
+TODO.txt
+lib/
