@@ -12,11 +12,14 @@ package edu.mit.jverbnet.parse;
 
 import java.util.Map;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.xml.sax.Attributes;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 
+import edu.mit.jverbnet.UnitTest;
 import edu.mit.jverbnet.data.VerbnetTypes;
 import edu.mit.jverbnet.data.selection.IRestrType;
 import edu.mit.jverbnet.data.selection.ISelRestrictions;
@@ -37,6 +40,8 @@ import edu.mit.jverbnet.util.parse.MappedHandler;
  * @since JVerbnet 1.0.0
  */
 public class SyntaxArgDescHandler extends MappedHandler<SyntaxArgDescBuilder> {
+	
+	private static final Logger logger = LogManager.getLogger(SyntaxArgDescHandler.class);
 	
 	// unchangeable fields
 	private final SyntaxArgType type;

@@ -34,12 +34,15 @@ import java.util.TreeMap;
 import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 
+import edu.mit.jverbnet.UnitTest;
 import edu.mit.jverbnet.data.IMember;
 import edu.mit.jverbnet.data.IVerbClass;
 import edu.mit.jverbnet.data.IVersion;

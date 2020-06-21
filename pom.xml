@@ -105,7 +105,7 @@
 							<transformers>
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>io.outofprintmagazine.Analyzer</mainClass>
+									<mainClass>edu.mit.jverbnet.UnitTest</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>

@@ -61,7 +61,7 @@
               </filters>
               <transformers>
                 <transformer>
-                  <mainClass>io.outofprintmagazine.Analyzer</mainClass>
+                  <mainClass>edu.mit.jverbnet.UnitTest</mainClass>
                 </transformer>
               </transformers>
             </configuration>

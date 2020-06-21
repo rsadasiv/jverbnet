@@ -114,7 +114,7 @@ public class FrameHandler extends MappedHandler<FrameBuilder> {
 				
 				// get types
 				primaryType = FrameType.getById(primaryTypeStr);
-				if(secondaryTypeStr.length() != 0)
+				if(secondaryTypeStr != null && secondaryTypeStr.length() != 0)
 					secondaryType = FrameType.getById(secondaryTypeStr);
 			}
 		};
