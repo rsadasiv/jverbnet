@@ -4,7 +4,7 @@
   <groupId>edu.mit</groupId>
   <artifactId>jverbnet</artifactId>
   <name>JVerbNet</name>
-  <version>1.2.0.2-SNAPSHOT</version>
+  <version>1.2.0.2</version>
   <url>http://projects.csail.mit.edu/jverbnet/</url>
   <build>
     <plugins>

@@ -5,9 +5,6 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 import edu.mit.jverbnet.data.IMember;
 import edu.mit.jverbnet.data.IVerbClass;
 import edu.mit.jverbnet.data.IWordnetKey;
@@ -17,7 +14,7 @@ import edu.mit.jverbnet.index.VerbIndex;
 
 public class UnitTest {
 
-	private static final Logger logger = LogManager.getLogger(UnitTest.class);
+	//private static final Logger logger = LogManager.getLogger(UnitTest.class);
 	
 	
 	public UnitTest() {
@@ -26,9 +23,9 @@ public class UnitTest {
 
 	public static void main(String[] args) throws IOException {
 		UnitTest me = new UnitTest();
-		logger.info("verbnet31: " + me.checkVerbClasses(me.initVerbnet31()));
-		logger.info("verbnet32: " + me.checkVerbClasses(me.initVerbnet32()));
-		logger.info("verbnet33: " + me.checkVerbClasses(me.initVerbnet33()));
+		System.out.println("verbnet31: " + me.checkVerbClasses(me.initVerbnet31()));
+		System.out.println("verbnet32: " + me.checkVerbClasses(me.initVerbnet32()));
+		System.out.println("verbnet33: " + me.checkVerbClasses(me.initVerbnet33()));
 
 	}
 	
